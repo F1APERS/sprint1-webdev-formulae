@@ -1,5 +1,5 @@
 //PARALLAX
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     var images = document.querySelectorAll('.parallax img');
     var currentImageIndex = 0;
 
@@ -18,36 +18,36 @@ document.addEventListener('DOMContentLoaded', function() {
 //BOTAO DOS CARDS
 const novidades = document.querySelector('.novidades-linha');
 
-novidades.addEventListener('click', function() {
+novidades.addEventListener('click', function () {
     window.alert('Em breve!');
-    
+
 });
 
 const novidades2 = document.querySelector('.novidades-linha-2');
 
-novidades2.addEventListener('click', function() {
+novidades2.addEventListener('click', function () {
     window.alert('Em breve!');
-    
+
 });
 
 const comunidadeBtn = document.querySelector('#Comunidade-btn');
 
-comunidadeBtn.addEventListener('click', function() {
+comunidadeBtn.addEventListener('click', function () {
     window.location.href = 'comunidade.html';
-    
+
 });
 
 
 //BOTAO COMUNIDADE
 let publicarBtn = document.querySelector('#publicar');
 
-publicarBtn.addEventListener('click', function() {
+publicarBtn.addEventListener('click', function () {
     window.alert('Publicado com sucesso!');
-    
+
 });
 
 //BOTAO DE VOLTAR
 let voltarBtn = document.querySelector('#logobtn');
-    voltarBtn.addEventListener('click', function() {
-        window.location.href = 'index.html';
-    });
+voltarBtn.addEventListener('click', function () {
+    window.location.href = 'index.html';
+});

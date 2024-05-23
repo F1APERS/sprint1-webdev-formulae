@@ -16,9 +16,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 //BOTAO DOS CARDS
-const novidades = document.querySelector('.novidades-item');
+const novidades = document.querySelector('.novidades-linha');
 
 novidades.addEventListener('click', function() {
+    window.alert('Em breve!');
+    
+});
+
+const novidades2 = document.querySelector('.novidades-linha-2');
+
+novidades2.addEventListener('click', function() {
     window.alert('Em breve!');
     
 });

@@ -134,6 +134,13 @@ nav a:focus {
     margin-top: 30px;
 }
 
+.novidades-linha-2 {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
 .novidades-item h3 {
     font-size: 30px;
 

@@ -218,6 +218,11 @@ nav a:focus {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    border: 1px solid var(--color3);
+    border-radius: 15px;
+    margin: 20px;
+    
+    
 }
 
 .postagem img {
@@ -225,4 +230,7 @@ nav a:focus {
     width: 40px;
     height: 40px;
     margin-right: 10px;
+
 }
+
+

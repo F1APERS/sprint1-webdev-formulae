@@ -36,6 +36,11 @@ header {
     border: none;
 }
 
+#logobtn :hover {
+    background-color: transparent;
+    cursor: pointer;
+}
+
 
 nav a {
     background-color: transparent;
@@ -156,7 +161,6 @@ nav a:focus {
     gap: 20px;
     padding: 50px 0;
     
-
 }
 
 #home {
@@ -172,6 +176,10 @@ nav a:focus {
     justify-content: center;
     
 }
+
+
+
+
  .box{
     width: 30%;
     gap: 10px;
@@ -183,5 +191,46 @@ nav a:focus {
 .box-text{
     justify-content: start;
     display: flex;
+    flex-direction: column;
 }
+
+.box-text input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid var(--color3);
+}
+
+.box-text button{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--color2);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.postagem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid var(--color3);
+    border-radius: 15px;
+    margin: 20px;
+    
+    
+}
+
+.postagem img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+
+}
+
 

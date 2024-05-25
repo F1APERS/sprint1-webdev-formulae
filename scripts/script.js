@@ -1,3 +1,8 @@
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('Script carregado!');
+});
+
+
 //PARALLAX
 document.addEventListener('DOMContentLoaded', function () {
     var images = document.querySelectorAll('.parallax img');
@@ -30,21 +35,6 @@ novidades2.addEventListener('click', function () {
 
 });
 
-const comunidadeBtn = document.querySelector('#Comunidade-btn');
-
-comunidadeBtn.addEventListener('click', function () {
-    window.location.href = 'comunidade.html';
-
-});
-
-
-//BOTAO COMUNIDADE
-let publicarBtn = document.querySelector('#publicar');
-
-publicarBtn.addEventListener('click', function () {
-    window.alert('Publicado com sucesso!');
-
-});
 
 //BOTAO DE VOLTAR
 let voltarBtn = document.querySelector('#logobtn');
